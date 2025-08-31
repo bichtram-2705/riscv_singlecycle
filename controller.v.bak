@@ -1,0 +1,24 @@
+module controller(
+    input [6:0] op,
+    input [2:0] funct3,
+    input funct7b5,
+    output reg Zero,
+    output reg PCSrc,
+    output reg ResultSrc,
+    output reg MemWrite,
+    output reg [1:0] ImmSrc,
+    output reg RegWrite,
+    output reg [2:0] ALUControl,
+    output reg ALUSrc
+);
+    reg [1:0] ALUOp;
+    reg Branch;
+
+maindec md(
+    
+);
+
+
+
+assign PCSrc = Branch & Zero;
+endmodule

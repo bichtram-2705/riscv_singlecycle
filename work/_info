@@ -1,0 +1,378 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/thiet_ke_so/century_clock_Tram
+T_opt
+!s110 1756480687
+VQN1T]HY9V6ZIR?lHaQAeH2
+04 6 4 work tb_top fast 0
+=2-046c59f7a4c2-68b1c4af-5e-2190
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vadder
+Z2 !s110 1756648216
+!i10b 1
+!s100 @mXIHWKi4JQzN0<n=WeC_0
+IVe[KTU8mV6@:NK;LCcWP^2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 dD:/thiet_ke_so/RISCV
+w1756393869
+8D:/thiet_ke_so/RISCV/adder.v
+FD:/thiet_ke_so/RISCV/adder.v
+L0 1
+Z5 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z6 !s108 1756648216.000000
+!s107 D:/thiet_ke_so/RISCV/adder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/thiet_ke_so/RISCV/adder.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+valu
+!s110 1756480681
+!i10b 1
+!s100 nk_FlOLlmG:a:1P8PVkcm1
+Ib6`55O4VH7]g^H<z54j>o1
+R3
+R4
+w1756480674
+8D:/thiet_ke_so/RISCV/alu.v
+FD:/thiet_ke_so/RISCV/alu.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1756480681.000000
+!s107 D:/thiet_ke_so/RISCV/alu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/thiet_ke_so/RISCV/alu.v|
+!i113 0
+R7
+R1
+valudec
+Z8 !s110 1756648215
+!i10b 1
+!s100 GHciU^lTh@`93]B`=1mz80
+IBZORjGo>46n<XbIM>G?I[2
+R3
+R4
+w1756450186
+8D:/thiet_ke_so/RISCV/aludec.v
+FD:/thiet_ke_so/RISCV/aludec.v
+L0 1
+R5
+r1
+!s85 0
+31
+Z9 !s108 1756648215.000000
+!s107 D:/thiet_ke_so/RISCV/aludec.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/thiet_ke_so/RISCV/aludec.v|
+!i113 0
+R7
+R1
+vcontroller
+R8
+!i10b 1
+!s100 aBHe@WBSLhE8;W36`Vfnn1
+I9E46M_:4:T:O1hY7;:=EL1
+R3
+R4
+w1756445115
+8D:/thiet_ke_so/RISCV/controller.v
+FD:/thiet_ke_so/RISCV/controller.v
+L0 1
+R5
+r1
+!s85 0
+31
+R9
+!s107 D:/thiet_ke_so/RISCV/controller.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/thiet_ke_so/RISCV/controller.v|
+!i113 0
+R7
+R1
+vdatapath
+R2
+!i10b 1
+!s100 A3aNS<HQOJR2nfV]oabQ41
+I=JQBHGN=g;^>1BWQ0:kJC2
+R3
+R4
+w1756451513
+8D:/thiet_ke_so/RISCV/datapath.v
+FD:/thiet_ke_so/RISCV/datapath.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/thiet_ke_so/RISCV/datapath.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/thiet_ke_so/RISCV/datapath.v|
+!i113 0
+R7
+R1
+vdmem
+R2
+!i10b 1
+!s100 UPKnWJ7IRMN;J=69o0A<L0
+IL7YDFKT5<h;U=A@h_1eW<3
+R3
+R4
+w1756453473
+8D:/thiet_ke_so/RISCV/dmem.v
+FD:/thiet_ke_so/RISCV/dmem.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/thiet_ke_so/RISCV/dmem.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/thiet_ke_so/RISCV/dmem.v|
+!i113 0
+R7
+R1
+vextend
+R2
+!i10b 1
+!s100 KCB8c>?`Jh<Bk]R_QRR>M1
+I>46`klG_?lElD;?nT<cfg3
+R3
+R4
+w1756407768
+8D:/thiet_ke_so/RISCV/extend.v
+FD:/thiet_ke_so/RISCV/extend.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/thiet_ke_so/RISCV/extend.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/thiet_ke_so/RISCV/extend.v|
+!i113 0
+R7
+R1
+vimem
+R2
+!i10b 1
+!s100 RIALYY`ETB8MWealFTNSU3
+IkU?[n@;gCCg3l0aeL@5Ei2
+R3
+R4
+w1756648202
+8D:/thiet_ke_so/RISCV/imem.v
+FD:/thiet_ke_so/RISCV/imem.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/thiet_ke_so/RISCV/imem.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/thiet_ke_so/RISCV/imem.v|
+!i113 0
+R7
+R1
+vmaindec
+R8
+!i10b 1
+!s100 7L2lk5GLi]kLUYVHSzm4M1
+IFb]fz9=Pg`JDTXz[K`m[O0
+R3
+R4
+w1756479925
+8D:/thiet_ke_so/RISCV/maindec.v
+FD:/thiet_ke_so/RISCV/maindec.v
+L0 1
+R5
+r1
+!s85 0
+31
+R9
+!s107 D:/thiet_ke_so/RISCV/maindec.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/thiet_ke_so/RISCV/maindec.v|
+!i113 0
+R7
+R1
+vmux
+R2
+!i10b 1
+!s100 7OKLQL1FF`oFOo70OfTdS0
+IDg?nJY?4VdEbm<n:UfEc:0
+R3
+R4
+w1756481031
+8D:/thiet_ke_so/RISCV/mux.v
+FD:/thiet_ke_so/RISCV/mux.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/thiet_ke_so/RISCV/mux.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/thiet_ke_so/RISCV/mux.v|
+!i113 0
+R7
+R1
+vmux3
+R2
+!i10b 1
+!s100 ?V>k`DlT7f8_4S6AUT^__1
+IPi]<l_J6Rc8Tj6AVnSZ532
+R3
+R4
+w1756439171
+8D:/thiet_ke_so/RISCV/mux3.v
+FD:/thiet_ke_so/RISCV/mux3.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/thiet_ke_so/RISCV/mux3.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/thiet_ke_so/RISCV/mux3.v|
+!i113 0
+R7
+R1
+vPC
+R2
+!i10b 1
+!s100 jh0=7;Ho>L:USBMT1P5G@2
+IIM47kX1mGfkR@iNnKc^J<1
+R3
+R4
+w1756406246
+8D:/thiet_ke_so/RISCV/PC.v
+FD:/thiet_ke_so/RISCV/PC.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/thiet_ke_so/RISCV/PC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/thiet_ke_so/RISCV/PC.v|
+!i113 0
+R7
+R1
+n@p@c
+vregfile
+R2
+!i10b 1
+!s100 OVYOaTS8e[Qi[T@bn0IWS0
+IoCKdC@h?zz5`Q29W3o^043
+R3
+R4
+w1756452651
+8D:/thiet_ke_so/RISCV/regfile.v
+FD:/thiet_ke_so/RISCV/regfile.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/thiet_ke_so/RISCV/regfile.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/thiet_ke_so/RISCV/regfile.v|
+!i113 0
+R7
+R1
+vriscvsingle
+R2
+!i10b 1
+!s100 261=]SMQ090E8kEn3NODU3
+IIIdjHfcV7jKMQi]i;nmTI0
+R3
+R4
+w1756441398
+8D:/thiet_ke_so/RISCV/riscvsingle.v
+FD:/thiet_ke_so/RISCV/riscvsingle.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/thiet_ke_so/RISCV/riscvsingle.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/thiet_ke_so/RISCV/riscvsingle.v|
+!i113 0
+R7
+R1
+vtb_riscv
+R2
+!i10b 1
+!s100 oON[YLd_@[Q10NL=Dl6;O3
+IRo=cXnXTbi:Y;RCzVS6N21
+R3
+R4
+w1756438703
+8D:/thiet_ke_so/RISCV/riscvtestbench.v
+FD:/thiet_ke_so/RISCV/riscvtestbench.v
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/thiet_ke_so/RISCV/riscvtestbench.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/thiet_ke_so/RISCV/riscvtestbench.v|
+!i113 0
+R7
+R1
+vtb_top
+!s110 1756648217
+!i10b 1
+!s100 5MzRg?]VS9aV6aLYc8TT92
+I48NJaz57oK184_n`NL6z>2
+R3
+R4
+w1756439053
+8D:/thiet_ke_so/RISCV/tb_top.v
+FD:/thiet_ke_so/RISCV/tb_top.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/thiet_ke_so/RISCV/tb_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/thiet_ke_so/RISCV/tb_top.v|
+!i113 0
+R7
+R1
+vtop
+R2
+!i10b 1
+!s100 B;JEP[:l2n=QeS;=:zLGY3
+I=RQk;><iaA=:QIYclh63m2
+R3
+R4
+w1756439626
+8D:/thiet_ke_so/RISCV/top.v
+FD:/thiet_ke_so/RISCV/top.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/thiet_ke_so/RISCV/top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/thiet_ke_so/RISCV/top.v|
+!i113 0
+R7
+R1

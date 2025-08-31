@@ -1,0 +1,12 @@
+module imem(
+    input [31:0] A,
+    output [31:0] RD
+);
+reg [31:0] RAM [1023:0];
+
+initial
+$readmemh("riscvtest.txt",RAM);
+
+assign RD = RAM[A[31:2]];
+RAM[0] = 32'h00000000;
+endmodule

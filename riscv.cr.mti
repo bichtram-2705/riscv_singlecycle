@@ -1,0 +1,99 @@
+D:/thiet_ke_so/RISCV/controller.v {1 {vlog -work work -vopt -stats=none D:/thiet_ke_so/RISCV/controller.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} D:/thiet_ke_so/RISCV/mux3.v {1 {vlog -work work -vopt -stats=none D:/thiet_ke_so/RISCV/mux3.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux3
+
+Top level modules:
+	mux3
+
+} {} {}} D:/thiet_ke_so/RISCV/regfile.v {1 {vlog -work work -vopt -stats=none D:/thiet_ke_so/RISCV/regfile.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} D:/thiet_ke_so/RISCV/aludec.v {1 {vlog -work work -vopt -stats=none D:/thiet_ke_so/RISCV/aludec.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module aludec
+
+Top level modules:
+	aludec
+
+} {} {}} D:/thiet_ke_so/RISCV/datapath.v {1 {vlog -work work -vopt -stats=none D:/thiet_ke_so/RISCV/datapath.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} D:/thiet_ke_so/RISCV/riscvtestbench.v {1 {vlog -work work -vopt -stats=none D:/thiet_ke_so/RISCV/riscvtestbench.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_riscv
+
+Top level modules:
+	tb_riscv
+
+} {} {}} D:/thiet_ke_so/RISCV/tb_top.v {1 {vlog -work work -vopt -stats=none D:/thiet_ke_so/RISCV/tb_top.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_top
+
+Top level modules:
+	tb_top
+
+} {} {}} D:/thiet_ke_so/RISCV/adder.v {1 {vlog -work work -vopt -stats=none D:/thiet_ke_so/RISCV/adder.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} D:/thiet_ke_so/RISCV/dmem.v {1 {vlog -work work -vopt -stats=none D:/thiet_ke_so/RISCV/dmem.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module dmem
+
+Top level modules:
+	dmem
+
+} {} {}} D:/thiet_ke_so/RISCV/top.v {1 {vlog -work work -vopt -stats=none D:/thiet_ke_so/RISCV/top.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} D:/thiet_ke_so/RISCV/extend.v {1 {vlog -work work -vopt -stats=none D:/thiet_ke_so/RISCV/extend.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module extend
+
+Top level modules:
+	extend
+
+} {} {}} D:/thiet_ke_so/RISCV/maindec.v {1 {vlog -work work -vopt -stats=none D:/thiet_ke_so/RISCV/maindec.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module maindec
+
+Top level modules:
+	maindec
+
+} {} {}} D:/thiet_ke_so/RISCV/riscvsingle.v {1 {vlog -work work -vopt -stats=none D:/thiet_ke_so/RISCV/riscvsingle.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module riscvsingle
+
+Top level modules:
+	riscvsingle
+
+} {} {}} D:/thiet_ke_so/RISCV/PC.v {1 {vlog -work work -vopt -stats=none D:/thiet_ke_so/RISCV/PC.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}}

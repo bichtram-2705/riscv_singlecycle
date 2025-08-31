@@ -1,0 +1,40 @@
+module riscvtestbench;
+
+reg clk;
+reg rst_n;
+wire [31:0] WriteData, DataAdr;
+wire MemWrite;
+
+top top_inst(
+    .clk(clk),
+    .rst_n(rst_n),
+    .WriteData(WriteData),
+    .DataAdr(DataAdr),
+    .MemWrite(MemWrite)
+);
+
+initial begin
+    rst_n <= 1; 
+    #22;
+    rst_n <= 0;
+end 
+
+always begin
+    clk <= 1; #5;
+    clk <= 0; #5;
+end
+
+always @(negedge clk) begin
+        if (MemWrite) begin
+            if (DataAdr == 100 && WriteData == 25) begin
+                $display("Simulation succeeded");
+                $stop;
+            end 
+            else if (DataAdr != 96) begin
+                $display("Simulation failed");
+                $stop;
+            end
+        end
+    end
+
+endmodule
