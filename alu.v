@@ -2,7 +2,7 @@ module alu(
     input [31:0] SrcA, SrcB,
     input [2:0] ALUControl,
     output reg Zero,
-    output Carry, OverFlow, Zero, Negative;
+    //output Carry, OverFlow, Zero, Negative;
     output reg [31:0] ALUResult
 );
 

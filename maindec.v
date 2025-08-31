@@ -7,9 +7,9 @@ module maindec(
     output MemWrite,
     output [1:0] ImmSrc,
     output RegWrite, Jump,
-    output [1:0] ALUOp
+    output [1:0] ALUOp,
+    output Branch
 );
-wire Branch;
 reg [10:0] controls;
 assign {RegWrite, ImmSrc, ALUSrc, MemWrite, ResultSrc, Branch, ALUOp, Jump} = controls;
 

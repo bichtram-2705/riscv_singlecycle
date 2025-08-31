@@ -5,7 +5,7 @@ module aludec(
     input [1:0] ALUOp,
     output reg [2:0] ALUControl
 );
-wire RtypeSub = funct7b5 &opb5;
+wire RtypeSub = funct7b5 & opb5;
 always @(*) begin
     case(ALUOp)
         2'b00: ALUControl = 3'b000;

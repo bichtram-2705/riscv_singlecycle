@@ -12,15 +12,15 @@ module datapath(
     input [2:0] ALUControl,
     input [1:0] ResultSrc,
     input PCSrc,
-    output Zero
+    output reg Zero
 );
 wire [31:0] PCNext;
 wire [31:0] PCPlus4, PCTarget;
 wire [31:0] ImmExt;
-wire [31:0] RD1, RD2;
+wire [31:0] RD2;
 
 wire [31:0] SrcA, SrcB, Result;
-
+wire zero;
 mux mux_pc(
     .sel(PCSrc),
     .in0(PCPlus4),
@@ -71,15 +71,18 @@ regfile rf_inst(
     .RD1(SrcA),
     .RD2(RD2)
 );
+always @(*) begin
+    Zero = zero;
+end
 
+assign WriteData = RD2;
 alu alu_inst(
+    .Zero(zero),
     .SrcA(SrcA),
     .SrcB(SrcB),
     .ALUControl(ALUControl),
-    .ALUResult(ALUResult),
-    .Zero(Zero)
+    .ALUResult(ALUResult)
 );
-
 mux3 mux_result(
     .in0(ALUResult),
     .in1(ReadData),

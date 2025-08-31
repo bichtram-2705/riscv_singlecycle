@@ -2,7 +2,7 @@ module controller(
     input [6:0] op,
     input [2:0] funct3,
     input funct7b5,
-    output reg Zero,
+    input Zero,
     output PCSrc,
     output [1:0] ResultSrc,
     output MemWrite,
@@ -12,7 +12,7 @@ module controller(
     output ALUSrc
 );
     wire [1:0] ALUOp;
-    reg Branch;
+    wire Branch;
 
 maindec md(
     .op(op),
@@ -24,17 +24,18 @@ maindec md(
     .ImmSrc(ImmSrc),
     .RegWrite(RegWrite), 
     .Jump(Jump),
-    .ALUOp(ALUOp)
+    .ALUOp(ALUOp),
+    .Branch(Branch)
 );
 
 aludec ad(
     .funct3(funct3),
     .funct7b5(funct7b5),
-    .opb5(opb5),
+    .opb5(op[5]),
     .ALUOp(ALUOp),
     .ALUControl(ALUControl)
 );
 
 //assign PCSrc = Branch & Zero | Jump;
-assign PCSrc = 1'b0;
+assign PCSrc = Branch & Zero;
 endmodule
