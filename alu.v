@@ -32,7 +32,7 @@ always @(*) begin
         Zero = 1'b1;
     end
     else begin
-        Zero = 1'b0;
+        Zero = 1'b0; 
     end
 end
 endmodule
