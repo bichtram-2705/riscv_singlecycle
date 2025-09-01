@@ -13,6 +13,7 @@ module controller(
 );
     wire [1:0] ALUOp;
     wire Branch;
+    wire Jump;
 
 maindec md(
     .op(op),
@@ -36,6 +37,6 @@ aludec ad(
     .ALUControl(ALUControl)
 );
 
-//assign PCSrc = Branch & Zero | Jump;
-assign PCSrc = Branch & Zero;
+assign PCSrc = Branch & Zero | Jump;
+//assign PCSrc = Branch & Zero;
 endmodule
